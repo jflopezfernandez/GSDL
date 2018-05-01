@@ -6,14 +6,8 @@
 #include <SDL2/SDL.h>
 #endif // EXTLIB_SDL2_INCLUDED
 
-class App {
-public:
-	App() { }
-
-	void Initialize() const noexcept;
-
-	int OnExecute() { return 0; }
-};
-
+#ifndef GSDL_CORE_APPLICATION_H_
+#include "CoreApplication.h"
+#endif // GSDL_CORE_APPLICATION_H_
 
 #endif // GSDL_GSDL_H_

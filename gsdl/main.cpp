@@ -11,7 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	App application;
+	SDL_ShowSimpleMessageBox(NULL, "Test", "Hello, world!", NULL);
 
-	return application.OnExecute();
+	GSDL::App application;
+
+	return application.onExecute();
 }
