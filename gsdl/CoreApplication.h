@@ -1,0 +1,7 @@
+#ifndef GSDL_CORE_APPLICATION_H_
+#define GSDL_CORE_APPLICATION_H_
+
+//
+
+
+#endif // GSDL_CORE_APPLICATION_H_
